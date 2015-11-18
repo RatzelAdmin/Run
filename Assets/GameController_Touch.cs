@@ -9,6 +9,7 @@ public class GameController_Touch : MonoBehaviour {
 
 	float speed = 0;
 	float state;
+	float tps;
 	// Use this for initialization
 	void Start () {
 		
