@@ -304,7 +304,7 @@ ModelImporter:
       name: Walk_001
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 64
+      lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
