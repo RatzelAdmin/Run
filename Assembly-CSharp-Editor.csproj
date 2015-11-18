@@ -10,10 +10,12 @@
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	<DebugSymbols>true</DebugSymbols>
 	<DebugType>full</DebugType>
@@ -23,7 +25,9 @@
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
 	<DebugType>pdbonly</DebugType>
 	<Optimize>true</Optimize>
@@ -31,7 +35,9 @@
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <ItemGroup>
 	<Reference Include="System" />
     <Reference Include="System.XML" />
@@ -128,6 +134,7 @@
      <Compile Include="Assets\Editor\NGUI\Editor\UIWidgetContainerEditor.cs" />
      <Compile Include="Assets\Editor\NGUI\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\Editor\NGUI\Editor\UIWrapContentEditor.cs" />
+     <Compile Include="Assets\Editor\dotBunny\VSCode.cs" />
      <None Include="Assets\Shaders\SB_Shaders\Dora_Plant_Culloff.shader" />
      <None Include="Assets\Shaders\SB-Diffuse-VertexColor.shader" />
      <None Include="Assets\Shaders\Toony-LightedOutline_dora.shader" />
@@ -197,5 +204,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
