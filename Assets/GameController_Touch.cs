@@ -8,7 +8,7 @@ public class GameController_Touch : MonoBehaviour {
 	public Slider slider;
 
 	float speed = 0;
-
+	float state;
 	// Use this for initialization
 	void Start () {
 		
