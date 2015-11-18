@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7b1f25cbc86d447f8b3ee399ca1d1e89
-timeCreated: 1447751333
+guid: 04622abf183fc664a8953b9fb9678af5
+timeCreated: 1447823059
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -126,31 +126,30 @@ ModelImporter:
     100236: Bone_Skit_BR_001
     100238: Bone_Skit_BR_002
     100240: Bone_Skit_BR_002 1
-    100242: Bone_Skit_BR_002 2
-    100244: Bone_Skit_FL_001
-    100246: Bone_Skit_FL_002
-    100248: Bone_Skit_FL_End
-    100250: Bone_Skit_FR_001
-    100252: Bone_Skit_FR_002
-    100254: Bone_Skit_FR_End
-    100256: button
-    100258: eye_base_old
-    100260: EYE_DEF
-    100262: eye_L_old
-    100264: eye_R_old
-    100266: hair_accce
-    100268: hair_front
-    100270: hair_frontside
-    100272: hairband
-    100274: head_back
-    100276: Leg
-    100278: MTH_DEF
-    100280: Shirts
-    100282: shirts_sode
-    100284: skin
-    100286: tail
-    100288: tail_bottom
-    100290: //RootNode
+    100242: Bone_Skit_FL_001
+    100244: Bone_Skit_FL_002
+    100246: Bone_Skit_FL_End
+    100248: Bone_Skit_FR_001
+    100250: Bone_Skit_FR_002
+    100252: Bone_Skit_FR_End
+    100254: button
+    100256: eye_base_old
+    100258: EYE_DEF
+    100260: eye_L_old
+    100262: eye_R_old
+    100264: hair_accce
+    100266: hair_front
+    100268: hair_frontside
+    100270: hairband
+    100272: head_back
+    100274: Leg
+    100276: MTH_DEF
+    100278: Shirts
+    100280: shirts_sode
+    100282: skin
+    100284: tail
+    100286: tail_bottom
+    100288: //RootNode
     400000: Bip001
     400002: Bip001 Footsteps
     400004: Bip001 Head
@@ -272,31 +271,30 @@ ModelImporter:
     400236: Bone_Skit_BR_001
     400238: Bone_Skit_BR_002
     400240: Bone_Skit_BR_002 1
-    400242: Bone_Skit_BR_002 2
-    400244: Bone_Skit_FL_001
-    400246: Bone_Skit_FL_002
-    400248: Bone_Skit_FL_End
-    400250: Bone_Skit_FR_001
-    400252: Bone_Skit_FR_002
-    400254: Bone_Skit_FR_End
-    400256: button
-    400258: eye_base_old
-    400260: EYE_DEF
-    400262: eye_L_old
-    400264: eye_R_old
-    400266: hair_accce
-    400268: hair_front
-    400270: hair_frontside
-    400272: hairband
-    400274: head_back
-    400276: Leg
-    400278: MTH_DEF
-    400280: Shirts
-    400282: shirts_sode
-    400284: skin
-    400286: tail
-    400288: tail_bottom
-    400290: //RootNode
+    400242: Bone_Skit_FL_001
+    400244: Bone_Skit_FL_002
+    400246: Bone_Skit_FL_End
+    400248: Bone_Skit_FR_001
+    400250: Bone_Skit_FR_002
+    400252: Bone_Skit_FR_End
+    400254: button
+    400256: eye_base_old
+    400258: EYE_DEF
+    400260: eye_L_old
+    400262: eye_R_old
+    400264: hair_accce
+    400266: hair_front
+    400268: hair_frontside
+    400270: hairband
+    400272: head_back
+    400274: Leg
+    400276: MTH_DEF
+    400278: Shirts
+    400280: shirts_sode
+    400282: skin
+    400284: tail
+    400286: tail_bottom
+    400288: //RootNode
     4300000: BLW_DEF
     4300002: EYE_DEF
     4300004: MTH_DEF
@@ -377,7 +375,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
