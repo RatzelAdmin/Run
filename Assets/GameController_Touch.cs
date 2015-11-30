@@ -20,7 +20,7 @@ public class GameController_Touch : MonoBehaviour {
 	bool isTouch = false;
 	
 	float nextUpdate = 0.0f;
-	float updateRate = 1.0f;
+	float updateRate = 5.0f;
 	
 	void Start () {
 		
@@ -37,17 +37,23 @@ public class GameController_Touch : MonoBehaviour {
 		
 		if(Time.time > nextUpdate){
 			nextUpdate = Time.time + 1.0f/updateRate;
-			tps = tapCount * updateRate;
-			tapCount = 0;
-			
+			tps = tapCount * 1.0f;
 		}
-		if(tps == 0){
-			isTouch = false;
+		//  if(tps == 0){
+		//  	isTouch = false;
+		//  }
+		if(isTouch == true && sTime >= 0.2f){
+			if(tapCount > 0){
+				tapCount =- 1;	
+			}else{
+				isTouch = false;
+				sTime = 0;
+			}
 		}
 		
 		if(slider.value >= 0 && slider.value <= 1){
 			//  slider.value -= 0.01f;
-			slider.value = slider.value + (-0.01f+0.002f*(tps*0.7f));
+			slider.value = slider.value + (-0.02f+0.01f*(tps*0.2f));
 		}
 		
 		//  if((tps > 1 && tps <= 2 )&& slider.value != 1 && isTouch){
@@ -77,5 +83,6 @@ public class GameController_Touch : MonoBehaviour {
 		Debug.Log("Tap");
 		tapCount++;
 		isTouch = true;
+		sTime = 0;
 	}
 }
