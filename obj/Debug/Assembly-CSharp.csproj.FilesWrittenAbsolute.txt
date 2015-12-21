@@ -19,3 +19,6 @@
 /Users/San/Run/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/San/Run/Temp/bin/Debug/UnityEngine.Advertisements.dll
 /Users/San/Run/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/San/Run/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
+/Users/San/Run/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/San/Run/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
