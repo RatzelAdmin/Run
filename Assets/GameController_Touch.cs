@@ -23,7 +23,7 @@ public class GameController_Touch : MonoBehaviour {
 	float updateRate = 5.0f;
 	
 	void Start () {
-		
+		//test
 	}
 	
 	// Update is called once per frame
