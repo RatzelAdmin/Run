@@ -165,6 +165,8 @@
      <Compile Include="Assets\Plugins\iTweenEditor\iTweenPath.cs" />
      <None Include="Assets\Art\Shaders\SB_Shaders\Dora_Plant_Culloff.shader" />
      <None Include="Assets\Art\Shaders\SB-Diffuse-VertexColor.shader" />
+     <None Include="Assets\Program\_Resources\Blob\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Program\_Resources\Shaders\DepthMask.shader" />
      <None Include="Assets\Art\Shaders\Toony-LightedOutline_dora.shader" />
      <None Include="Assets\Art\Shaders\Sprite Vertex Colored.shader" />
      <None Include="Assets\Art\Shaders\Additive_2side_off.shader" />
