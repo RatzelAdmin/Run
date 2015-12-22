@@ -70,7 +70,7 @@ public class CutsceneMgr : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start() {
-		QuickMenu = GameObject.FindGameObjectWithTag("QuickMenu");
+		//QuickMenu = GameObject.FindGameObjectWithTag("QuickMenu");
 		//plugin = FindObjectOfType(typeof(MicComponent)) as MicComponent;
 		if (QuickMenu == null) {
 //			if (prePlugin != null) {
@@ -216,7 +216,8 @@ public class CutsceneMgr : MonoBehaviour {
 	}
 	void FixedUpdate () {
 		
-		if (stepsToRun.Count == 0 && progSteps.Count == 0) {Debug.Log("end");
+		if (stepsToRun.Count == 0 && progSteps.Count == 0) {
+			Debug.Log("end");
 			EndCutscene();
 			return;
 		}
