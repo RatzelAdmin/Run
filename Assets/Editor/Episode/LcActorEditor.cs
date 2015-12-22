@@ -14,7 +14,7 @@ public class LcActorTexEditor {
 			AssetDatabase.CreateAsset(mat, Path.ChangeExtension(AssetDatabase.GetAssetPath(tex), ".mat"));
 			
 			GameObject go = AssetDatabase.LoadAssetAtPath("Assets/Program/_Resources/Prefabs/TexActor.prefab", typeof(GameObject)) as GameObject;
-			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Design/Actor/Etc/{0}.prefab", tex.name), go);
+			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Art/Pref/Image/{0}.prefab", tex.name), go);
 			prefab.renderer.material = mat;
 			
 			AssetDatabase.SaveAssets();
@@ -37,7 +37,7 @@ public class LcActorTexEditor {
 			box.isTrigger = true;
 			box.size = new Vector3(0.5f, 0.5f, 0.5f);
 			
-			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Design/Actor/Etc/{0}.prefab", Selection.activeObject.name), go);
+			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Art/Pref/Object/{0}.prefab", Selection.activeObject.name), go);
 			
 			GameObject.DestroyImmediate(go);
 			
@@ -91,7 +91,7 @@ public class LcActorTexEditor {
 			go.transform.parent = go1.transform;
 			go.name = Selection.activeObject.name;
 			
-			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Design/Actor/Generic/{0}.prefab", Selection.activeObject.name), go1);
+			GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Art/Pref/Charactor/{0}.prefab", Selection.activeObject.name), go1);
 			//GameObject prefab = PrefabUtility.CreatePrefab(string.Format ("Assets/Design/Actor/Generic/{0}.prefab", Selection.activeObject.name), go);
 			
 			
