@@ -22,3 +22,4 @@
 /Users/San/Run/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
 /Users/San/Run/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
 /Users/San/Run/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/San/Run/Temp/bin/Debug/JsonFx.Json.dll

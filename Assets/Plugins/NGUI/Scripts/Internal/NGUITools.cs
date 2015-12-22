@@ -25,9 +25,9 @@ static public class NGUITools
 	/// </summary>
 
 	static public void StopSound() {
-		if (mListener == null || mListener.GetComponent<AudioSource>() == null)
+		if (mListener == null || mListener.audio == null)
 			return;
-		mListener.GetComponent<AudioSource>().Stop();
+		mListener.audio.Stop();
 	}
 
 	static public float soundVolume
