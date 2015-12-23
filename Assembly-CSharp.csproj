@@ -72,6 +72,7 @@
      <Compile Include="Assets\Program\SongMaker\SongData.cs" />
      <Compile Include="Assets\Program\SongMaker\SongPlayer.cs" />
      <Compile Include="Assets\Program\SongMaker\Timer.cs" />
+     <Compile Include="Assets\Scripts\TestController.cs" />
      <Compile Include="Assets\Scripts\UIController.cs" />
      <None Include="Assets\Art\Shaders\SB_Shaders\Dora_Plant_Culloff.shader" />
      <None Include="Assets\Art\Shaders\SB-Diffuse-VertexColor.shader" />
