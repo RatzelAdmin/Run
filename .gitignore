@@ -32,3 +32,6 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# include meta files
+!*.*.meta
